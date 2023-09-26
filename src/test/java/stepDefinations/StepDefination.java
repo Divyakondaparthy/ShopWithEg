@@ -147,7 +147,7 @@ public class StepDefination extends DriverFactory {
 
 	@Then("verify the password changed successfully")
 	public void verify_the_password_changed_successfully() {
-	    
+		System.out.println();	    
 
 	}
 
