@@ -1,0 +1,24 @@
+# Created at 2023-09-27T11:29:21.029
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-09-27T11:29:22.303
+Unexpected IOException with stream: Sep 27, 2023 11:29:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 117, so returning the closest version found: a no-op implementation
+
+
+# Created at 2023-09-27T11:29:22.368
+Unexpected IOException with stream: Sep 27, 2023 11:29:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 117.
+
+
+# Created at 2023-09-27T11:29:22.374
+Unexpected IOException with stream: Sep 27, 2023 11:29:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-beta-2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
